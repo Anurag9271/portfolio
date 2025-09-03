@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+navbar{
+    background-color: white;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black !important;
+    cursor: pointer;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.navbar-brand span{
+    color: gray;
+}
+.rotate-a{
+    transform: rotate(15deg);
+    display: inline-block;
+}
+.nav-link{
+    color: black ;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.nav-link:hover{
+    color: rgb(212, 113, 15);
+    
+}
+
+
+
+
+
+
+
+
+.main h3{
+    font-size: 4.4rem;
+    font-weight:700;
+    font-family:"Open Sans", sans-serif;
+}
+.main h6{
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: "Open Sans", sans-serif;
+}
+.name{
+    color: gray;
+
+}
+
+
+.btn-primary{
+    background-color:rgb(50, 50, 232);
+    color: white;
+      border: 2px solid transparent;
+    
+}
+.btn-primary:hover{
+    background-color: rgb(88, 88, 224);
+    border:2px solid transparent;
+}
+.social-media i{
+    transition:.5s transform;
+}
+.social-media i:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+
+
+.about{
+    font-family:"Open Sans", sans-serif;
+}
+.about h3,h4{
+    font-weight: 600;
+    color: gray;
+  
+}
+.about img{
+box-shadow: 0px 0px 29px 0px rgba(147,137,137,0.75);
+-webkit-box-shadow: 0px 0px 29px 0px rgba(147,137,137,0.75);
+-moz-box-shadow: 0px 0px 29px 0px rgba(147,137,137,0.75);
+transition:.5s ;
+}
+.about img:hover{
+    transform: rotate(1deg);   
+}
+.edu{
+    padding-left: 0px;
+}
+.edu span{
+    font-weight: 700;
+   
+    
+}
+ul{
+    list-style: none;
+}
+
+
+
+.skills h1{
+    color: gray;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+}
+.card{
+    border: none;
+    outline: none;
+    transition: .5s transform;
+
+}
+.card p{
+    color:rgb(0, 0, 0);
+}
+.card:hover{
+    transform: scale(1.02,1.02);
+box-shadow: 0px 0px 5px 0px rgba(208,161,51,0.75);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(208,161,51,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(208,161,51,0.75);
+
+}
+.project h1{
+    font-family: "Open Sans", sans-serif ;
+    font-weight: 800;
+    color: gray;
+}
+
+
+
+
+.connect h2{
+    font-family: "Open Sans", sans-serif ;
+    font-weight: 800;
+    color: gray;
+}
+
